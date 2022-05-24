@@ -28,12 +28,14 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 - Yarn - `npm i -g yarn`
 
 ## Setup Docs
+
+- Initial Setup ([setup-initial.md](setup-initial.md))
+- Tools Setup ([setup-tools.md](setup-tools.md))
 - NextJs (https://nextjs.org/docs/basic-features/typescript)
 - AntD (https://ant.design/docs/react/introduce)
 - ESlint (https://paulintrognon.fr/blog/typescript-prettier-eslint-next-js)
 - Prettier (https://paulintrognon.fr/blog/typescript-prettier-eslint-next-js)
 - Husky (https://paulintrognon.fr/blog/typescript-prettier-eslint-next-js)/https://github.com/conventional-changelog/commitlint
-
 
 ## Learn More
 
