@@ -1,6 +1,16 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
-}
+const withLess = require('next-with-less');
+const modifyVars = require('./customTheme.json');
 
-module.exports = nextConfig
+const nextConfig = withLess({
+  lessLoaderOptions: {
+    lessOptions: {
+      modifyVars, // https://github.com/ant-design/ant-design/blob/master/components/style/themes/default.less
+    },
+  },
+  eslint: {
+    dirs: ['src'],
+  },
+});
+
+module.exports = nextConfig;

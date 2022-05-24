@@ -1,24 +1,45 @@
 {
-  "name": "es-web",
+  "name": "electric-studio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "lint-fix": "next lint --fix"
   },
   "dependencies": {
+    "antd": "^4.20.6",
+    "autoprefixer": "^10.4.7",
+    "less": "^4.1.2",
+    "less-loader": "^11.0.0",
     "next": "12.1.6",
+    "next-with-less": "^2.0.5",
+    "postcss": "^8.4.14",
     "react": "18.1.0",
-    "react-dom": "18.1.0"
+    "react-dom": "18.1.0",
+    "sass": "^1.52.1"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.0.0",
+    "@commitlint/config-conventional": "^17.0.0",
     "@types/node": "17.0.35",
     "@types/react": "18.0.9",
     "@types/react-dom": "18.0.4",
+    "@typescript-eslint/eslint-plugin": "^5.26.0",
     "eslint": "8.16.0",
     "eslint-config-next": "12.1.6",
+    "eslint-config-prettier": "^8.5.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^12.4.1",
+    "prettier": "^2.6.2",
     "typescript": "4.6.4"
-  }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 3 versions",
+    "Firefox >= 20",
+    "iOS >=7"
+  ]
 }

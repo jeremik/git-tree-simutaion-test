@@ -1,0 +1,10 @@
+{
+  "@navy": "#0f4476",
+  "@teal": "#29a8d2",
+  "@black": "#000000",
+  "@white": "#ffffff",
+  "@gray": "#a0a0a0",
+  "@success": "#00a758",
+  "@warning": "#e87722",
+  "@danger": "#d31145"
+}
